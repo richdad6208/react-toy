@@ -14,7 +14,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.header .wrapper {
+.wrapper {
   width: min(1200px, 100% - 2rem);
   margin-inline: auto;
 }
@@ -29,9 +29,8 @@ body {
     font-size: 30px;
   }
 }
-main {
-  margin-top: 10rem;
-}
+
 section {
   min-height: 100vh;
+  padding-block: 5rem;
 }
