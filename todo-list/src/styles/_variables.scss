@@ -1,0 +1,21 @@
+:root {
+  --crl-bg-dark: #f5f5f5;
+  --crl-bg: #fdfffd;
+  --crl-grey: #d1d1d1;
+  --crl-text: #22243b;
+  --crl-accent: dodgerblue;
+  --crl-white: white;
+  --crl-scrollbar: #aaa7a7;
+
+  --ff-primary: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+html.dark {
+  --crl-bg-dark: #1a1c35;
+  --crl-bg: #22243b;
+  --crl-grey: #4e4e4e;
+  --crl-text: white;
+}
