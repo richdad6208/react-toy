@@ -1,0 +1,37 @@
+@import "_variables";
+
+ul {
+  list-style: none;
+}
+
+body {
+  color: var(--crl-text);
+  background-color: var(--crl-bg);
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .wrapper {
+  width: min(1200px, 100% - 2rem);
+  margin-inline: auto;
+}
+.primary-navigation {
+  display: flex;
+  align-items: center;
+  li {
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  .icon {
+    font-size: 30px;
+  }
+}
+main {
+  margin-top: 10rem;
+}
+section {
+  min-height: 100vh;
+}

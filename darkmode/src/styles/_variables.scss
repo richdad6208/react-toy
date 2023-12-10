@@ -1,0 +1,12 @@
+:root {
+  --crl-text: #333;
+  --crl-bg: whitesmoke;
+  --crl-grey: #bbb;
+  --crl-accent: dodgerblue;
+}
+
+html.dark {
+  --crl-text: #ddd;
+  --crl-bg: #333;
+  --crl-grey: #666;
+}
